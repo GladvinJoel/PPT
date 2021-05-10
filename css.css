@@ -1,0 +1,36 @@
+a{
+    text-decoration:none;
+    color:indigo;
+    font-size:40px;
+    padding: 5px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+.list{
+    display:inline;
+}
+a:hover{
+    color:green;
+}
+body{
+    background-image:url("https://i.pinimg.com/originals/ce/2b/78/ce2b78a05838ef311c0868bb2fca0494.gif");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+img{
+border-radius:10%;
+}
+p{
+    color: white;
+}
+.Planets{
+    width:450px; height:400px;
+}
+#Planets2{
+    background-color: black; 
+    color: white;
+    font-family: Cambria;
+    text-align: center;
+    font-size: 50px;
+}

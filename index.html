@@ -1,0 +1,257 @@
+<html>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,900&display=swap" rel="stylesheet">
+    <head>
+        <link rel="stylesheet" href="css.css" >
+        <title>
+            Class 15
+        </title>
+        
+    </head>
+    <body>
+        <script>
+            function Universe(name){
+                document.getElementById("Planets2").value=name;
+
+            }
+            var Milkyway=null;
+            var Plan=null;
+            var H2O=null;
+            var Float=null;
+            var NewH2O=null;
+            var Bigplan=null;
+            var urplan=null;
+            var Rings=null;
+            var Neptunes=null;
+            var Suns=null;
+                        function initial() {
+                Milkyway=document.getElementById("Mercury1");
+                Milkyway.style.position='relative';
+                Milkyway.style.left='0px';
+                Plan=document.getElementById("Venus1");
+                Plan.style.position='relative';
+                Plan.style.left='0px';
+                H2O=document.getElementById("Earth1");
+                H2O.style.position='relative';
+                H2O.style.left='0px';
+                Float=document.getElementById("Moon1");
+                Float.style.position='relative';
+                Float.style.left='0px';
+                NewH2O=document.getElementById("Mars1");
+                NewH2O.style.position='relative';
+                NewH2O.style.left='0px';
+                Bigplan=document.getElementById("Jupiter1");
+                Bigplan.style.position='relative';
+                Bigplan.style.left='0px';
+                urplan=document.getElementById("Uranus1");
+                urplan.style.position='relative';
+                urplan.style.left='0px';
+                Rings=document.getElementById("Saturn1");
+                Rings.style.position='relative';
+                Rings.style.left='0px';
+                Neptunes=document.getElementById("Neptune1");
+                Neptunes.style.position='relative';
+                Neptunes.style.left='0px';
+                Suns=document.getElementById("Sun1");
+                Suns.style.position='relative';
+                Suns.style.left='0px';
+            }
+            function Moveright(){
+                Milkyway.style.left=parseInt(Milkyway.style.left)+15+'px';
+            }
+            function Moveright2(){
+                Plan.style.left=parseInt(Plan.style.left)+15+'px';
+            }
+        
+            function Moveright3(){
+               H2O.style.left=parseInt(H2O.style.left)+15+'px';
+            }
+                function Moveright4(){
+                Float.style.left=parseInt(Float.style.left)+15+'px';
+            }
+            function Moveright5(){
+                NewH2O.style.left=parseInt(NewH2O.style.left)+15+'px';
+            }
+            function Moveright6(){
+                Bigplan.style.left=parseInt(Bigplan.style.left)+15+'px';
+            }
+            function Moveright7(){
+                Rings.style.left=parseInt(Rings.style.left)+15+'px';
+            }
+            function Moveright8(){
+                urplan.style.left=parseInt(urplan.style.left)+15+'px';
+            }
+            function Moveright9(){
+                Neptunes.style.left=parseInt(Neptunes.style.left)+15+'px';
+            }
+            function Moveright10(){
+                Suns.style.left=parseInt(Suns.style.left)+15+'px';
+            }
+            window.onload=initial;
+            
+        </script>
+        <center>
+        <a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/"
+        target="_blank" >
+
+        
+<img src="Planets.jpg" usemap="#Planets">
+</a>
+<map name="Planets">
+    <area onmouseover="Universe('Sun')" onmouseout="Universe('')" target="_blank" alt="Sun" title="Sun" href="https://solarsystem.nasa.gov/solar-system/sun/overview/" coords="17,201,100" shape="circle">
+    <area onmouseover="Universe('Mercury')" onmouseout="Universe('')"  target="_blank" alt="Mercury" title="Mercury" href="https://solarsystem.nasa.gov/planets/mercury/overview/" coords="210,240,16" shape="circle">
+    <area onmouseover="Universe('Venus')" onmouseout="Universe('')"  target="_blank" alt="Venus" title="Venus" href="https://solarsystem.nasa.gov/planets/venus/overview/" coords="250,199,22" shape="circle">
+    <area onmouseover="Universe('Earth')" onmouseout="Universe('')"  target="_blank" alt="Earth" title="Earth" href="https://solarsystem.nasa.gov/planets/earth/overview/" coords="295,233,23" shape="circle">
+    <area onmouseover="Universe('Moon')" onmouseout="Universe('')"  target="_blank" alt="Moon" title="Moon" href="https://solarsystem.nasa.gov/moons/earths-moon/overview/" coords="318,199,14" shape="circle">
+    <area onmouseover="Universe('Mars')" onmouseout="Universe('')"  target="_blank" alt="Mars" title="Mars" href="https://solarsystem.nasa.gov/planets/mars/overview/" coords="344,275,18" shape="circle">
+    <area onmouseover="Universe('Jupiter')" onmouseout="Universe('')"  target="_blank" alt="jupiter" title="jupiter" href="https://solarsystem.nasa.gov/planets/jupiter/overview/" coords="403,210,45" shape="circle">
+    <area onmouseover="Universe('Saturn')" onmouseout="Universe('')"  target="_blank" alt="saturn" title="saturn" href="https://solarsystem.nasa.gov/planets/saturn/overview/" coords="483,144,34" shape="circle">
+    <area onmouseover="Universe('Uranus')" onmouseout="Universe('')"  target="_blank" alt="uranus" title="uranus" href="https://solarsystem.nasa.gov/planets/uranus/overview/" coords="528,251,24" shape="circle">
+    <area onmouseover="Universe('Neptune')" onmouseout="Universe('')"  target="_blank" alt="neptune" title="neptune" href="https://solarsystem.nasa.gov/planets/neptune/overview/" coords="565,188,23" shape="circle">
+    <area onmouseover="Universe('Pluto')" onmouseout="Universe('')" target="_blank" alt="Pluto" title="Pluto" href="https://solarsystem.nasa.gov/planets/dwarf-planets/pluto/overview/" coords="597,231,9" shape="circle">
+
+
+</map>
+<br>
+<input type="text" id="Planets2" size="25px">
+</center>
+<ul>
+    <li class="list" ><a href="#Sun" target="_self">Sun</a></li>
+    <li class="list"><a href="#Mercury" target="_self"> Mercury </a></li>
+    <li class="list"><a href="#Venus" target="_self"> Venus </a></li>
+    <li class="list"><a href="#Earth" target="_self"> Earth </a></li>
+    <li class="list"><a href="#Moon" target="_self"> Moon </a></li>
+    <li class="list"><a href="#Mars" target="_self"> Mars </a></li>
+    <li class="list"><a href="#Jupiter" target="_self"> jupiter </a></li>
+    <li class="list"><a href="#Saturn" target="_self"> Saturn </a></li>
+    <li class="list"><a href="#Uranus" target="_self"> Uranus </a></li>
+    <li class="list"><a href="#Neptune" target="_self"> Neptune </a></li>
+    <li class="list"><a href="#Pluto" target="_self"> Pluto </a></li>
+</ul>
+<section id="Sun" >
+<div>
+    <h1 style="color: crimson;">
+        Sun
+    </h1>
+    <img src="Sun.png" class="Planets" id="Sun1" onclick="Moveright10()">
+    <p>
+        Sun Facts
+.The Sun is the largest object within our solar system, comprising 99.8% of the system’s mass.<br>
+.The Sun is located at the center of our solar system, and Earth orbits 93 million miles away from it.<br>
+.Though massive, the Sun still isn’t as large as other types of stars. It’s classified as a yellow dwarf star.<br>
+.The Sun's magnetic field spreads throughout the solar system via the solar wind.<br>
+
+The Sun—the heart of our solar system—is a yellow dwarf star, a hot ball of glowing gases.<br>
+
+Its gravity holds the solar system together, keeping everything from the biggest planets to the smallest particles of debris in its orbit.<br> Electric currents in the Sun generate a magnetic field that is carried out through the solar system by the solar wind—a stream of electrically charged gas blowing outward from the Sun in all directions.<br>
+
+The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and aurorae. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.
+    </p>
+
+</div>
+
+</section>
+<section id="Mercury" >
+    <div>
+        <h1 style="color: red; font-size: 25px;" >
+            Mercury
+        </h1>
+        <img src="Mercury.png" class="Planets" id="Mercury1" onclick="Moveright()" >
+        <p>
+            .The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon<br>
+            .From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere.
+        </p>
+
+    </div>
+
+</section>
+<section id="Venus" >
+    <div>
+        <h1 style="color: red; font-size: 25px;" >
+            Venus
+        </h1>
+        <img src="Venus.png" class="Planets" id="Venus1" onclick="Moveright2()" >
+        <p>
+            .Similar in size and structure to Earth, Venus has been called Earth's twin. These are not identical twins, however – there are radical differences between the two worlds
+        </p>
+
+    </div>
+</section>
+<section id="Earth" >
+    <div>
+        <h1 style="color: red; font-size: 25px;" >
+            Earth
+        </h1>
+        <img src="Earth.png"  class="Planets" id="Earth1" onclick="Moveright3()" >
+        <p>
+            Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things.
+        </p>
+    </div>
+    <section id="Moon" >
+        <div>
+            <h1 style="color: red; font-size: 25px;" >
+                Moon
+            </h1>
+            <img src="Moon.png"  class="Planets" id="Moon1" onclick="Moveright4()">
+            <p>
+                Earth's Moon is the only place beyond Earth where humans have set foot
+            </p>
+        </div>
+        <section id="Mars" >
+            <div>
+                <h1 style="color: red; font-size: 25px;" >
+                    Mars
+                </h1>
+                <img src="Mars.png" class="Planets" id="Mars1" onclick="Moveright5()" >
+                <p>
+                    The red planet Mars, named for the Roman god of war, has long been an omen in the night sky. And in its own way, the planet’s rusty red surface tells a story of destruction. Billions of years ago, the fourth planet from the sun could have been mistaken for Earth’s smaller twin, with liquid water on its surface—and maybe even life
+                </p>
+            </div>
+            <section id="Jupiter" >
+                <div>
+                    <h1 style="color: red; font-size: 25px;" >
+                        Jupiter
+                    </h1>
+                    <img src="Jupiter.png"  class="Planets" id="Jupiter1" onclick="Moveright6()">
+                    <p>
+                        Jupiter has a long history surprising scientists—all the way back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery changed the way we see the universe.
+                    </p>
+                </div>
+                <section id="saturn" >
+                    <div>
+                        <h1 style="color: red; font-size: 25px;" >
+                            Saturn
+                        </h1>
+                        <img src="Saturn.png" class="Planets" id="Saturn1" onclick="Moveright7()">
+                        <p>
+                            Saturn is the sixth planet from the Sun and the second largest planet in our solar system.
+                        </p>
+                    </div>
+                <section id="Uranus" >
+                    <div>
+                        <h1 style="color: red; font-size: 25px;" >
+                            Uranus
+                        </h1>
+                        <img src="Uranus.png"  class="Planets" id="Uranus1" onclick="Moveright8()">
+                        <p>
+                            The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star.
+                        </p>
+                    </div>
+                    <section id="Neptune" >
+                        <div>
+                            <h1 style="color: red; font-size: 25px;" >
+                                Neptune
+                            </h1>
+                            <img src="Neptune.png"  class="Planets" id="Neptune1" onclick="Moveright9()">
+                            <p>
+                                The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star.
+                            </p>
+                        </div>
+</section>
+<!--
+    imagemap generator by-
+    https://www.image-map.net
+    
+-->
+</body>
+</html>
